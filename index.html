@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Schoology Bridge$$ MY.AIS</title>
+        <link href="https://my.ais.sch.sa/uploads/school_details/1/logos/app_icon.jpg?20171027081053" rel="icon">
+        
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-46914903-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <!-- external libs from cdnjs -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css">
+        
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <!-- PivotTable.js libs from ../dist -->
+        <link rel="stylesheet" type="text/css" href="pivot.css">
+        <script type="text/javascript" src="pivot.js"></script>
+        <script type="text/javascript" src="first.js"></script>
+        <script type="text/javascript" src="first2.js"></script>
+        <script type="text/javascript" src="d3_renderers.js"></script>
+        <script type="text/javascript" src="c3_renderers.js"></script>
+        <script type="text/javascript" src="export_renderers.js"></script>
+        <script src="https://kit.fontawesome.com/e91ca672e0.js" crossorigin="anonymous"></script>
+
+        <style>
+            html { height:100%; }
+            body {
+                font-family: Verdana;
+                min-height: 95%;
+                border: 5px dotted;
+            }
+            .whiteborder {border-color: white;}
+            .greyborder {border-color: lightgrey;}
+            #filechooser {
+                color: #555;
+                text-decoration: underline;;
+                cursor: pointer; /* "hand" cursor */
+            }
+            .node {
+              border: solid 1px white;
+              font: 10px sans-serif;
+              line-height: 12px;
+              overflow: hidden;
+              position: absolute;
+              text-indent: 2px;
+            }
+            .c3-line, .c3-focused {stroke-width: 3px !important;}
+            .c3-bar {stroke: white !important; stroke-width: 1;}
+            .c3 text { font-size: 12px; color: grey;}
+            .tick line {stroke: white;}
+            .c3-axis path {stroke: grey;}
+            .c3-circle { opacity: 1 !important; }
+            .c3-xgrid-focus {visibility: hidden !important;}
+        </style>
+        <style>
+            body{
+                background-color: #c0baba;
+            }
+        </style>
+    </head>
+    <body   class="whiteborder" >
+
+        
+        
+        
+        
+                                        
+           
+
+        
+
+        
+<h3>        
+        <p align="center" style="line-height: 1.5">
+            Import from LMS ( Moodle - Canvas - BlackBoard - Schoology - Google Classroom)
+        </br>
+
+            <label id="filechooser"><i class="fa-regular fa-folder-open"></i> >>Click here to upload your file <input id="csv" type="file" style="display:none"/></label>
+           
+        </p>
+
+        <div id="output" style="margin: 10px;"></div>
+
+</h3>
+
+
+       </br></br></br>
+       <h2>
+        <center>
+        <i class="fa-regular fa-paper-plane"></i>
+       <input type="button" id="clickme" value="Click To Convert To My AIS" onclick="checkForm()"/>
+       </center>
+        </h2>
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+        <div id="target">
+        </div>
+
+    </br></br></br></br></br></br></br></br></br></br></br>
+
+     <center >
+        <h3>
+            <H2><i class="fa-solid fa-bell"></i>Important Instructions:: </H2>
+            <i class="fa-solid fa-check"></i> Schoology :: Grade Setup (1-Quiz & 2-Classwork & 3-Homework & 4-Exam) <i class="fa-solid fa-circle-check"></i>Total points column
+            <br> <i class="fa-solid fa-check"></i> Schoology :: Materials  Quiz(3) - CW(2.5)- Hw(2.5) - Exam(8)
+
+
+
+
+        </h3>
+     </center>
+    
+
+
+
+        <div>a.bakr@ais.sch.sa </div>
+
+    </body>
+</html>
